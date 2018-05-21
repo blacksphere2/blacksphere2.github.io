@@ -1,0 +1,296 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<LINK REL="SHORTCUT ICON" HREF="favicon.ico">
+
+	<TITLE>R/C Sim Sikorsky - Freeware R/C Helicopter Simulator</TITLE>
+	
+<META name="description" content="R/C Sim is a Freeware R/C Flight Simulator">
+<META name="author" content="Blacksphere">
+<META name="keywords" content="R/C, flight, sim, simulator, freeware, Sikorsky, heli, helicopter, aeroplane, aircraft">
+
+	
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+	function DoLoud() 	{
+		alert("Temporarily unavailable. Please come back later.")		
+		//if ( confirm("Bram, zeg nou zelf: dit (OK) is het toch ook niet echt?") ) {
+		//	//window.close()
+		//	window.location="rcsimloud.html"
+		//}
+	
+	}
+	
+//-->
+</SCRIPT>
+
+<script language="JavaScript1.1">
+<!--
+
+//*****************************************
+// Blending Image Slide Show Script- 
+// © Dynamic Drive (www.dynamicdrive.com)
+// For full source code, visit http://www.dynamicdrive.com/
+//*****************************************
+
+//specify interval between slide (in mili seconds)
+var slidespeed=3000
+
+//specify images
+var slideimages=new Array("image1.jpg","image2.jpg","image3.jpg","image4.jpg","image5.jpg","image6.jpg")
+
+//specify corresponding links
+var slidelinks=new Array("http://www.dynamicdrive.com","http://javascriptkit.com","http://www.geocities.com")
+
+var newwindow=1 //open links in new window? 1=yes, 0=no
+
+var imageholder=new Array()
+var ie=document.all
+for (i=0;i<slideimages.length;i++){
+imageholder[i]=new Image()
+imageholder[i].src=slideimages[i]
+}
+
+function gotoshow(){
+if (newwindow)
+window.open(slidelinks[whichlink])
+else
+window.location=slidelinks[whichlink]
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY BGCOLOR="Black" TEXT="White" onLoad="" LINK="Silver" VLINK="Gray" ALINK="White">
+<!-- 
+<A HREF="mededeling.html"><FONT SIZE="1" FACE="Arial">Mededeling voor Zonnet Operations</FONT></A>
+ -->
+<!--
+<A HREF="javascript:void(0)" onClick="window.open('mededeling.html', 'popupWindow2', 'scrollbars=1,resizable=1,width=400,height=300');" onMouseOver="window.status='Mededeling'; return true" onMouseOut="window.status=''"><FONT SIZE="1" FACE="Arial">Mededeling voor Zonnet Operations</FONT></A>
+ -->
+ 
+<a href="mededeling.html" onClick="window.open(this.href, 'popupWindow2', 'scrollbars=1,resizable=1,width=400,height=300'); return false;"><FONT SIZE="1" FACE="Arial">Mededeling voor Zonnet Operations</FONT></a>
+
+
+<BR><BR>
+<CENTER>
+<!-- <a href="javascript:gotoshow()"> --><img src="image1.jpg" name="slide" border=0 style="filter:blendTrans(duration=3)" width=342 height=240><!-- </a> -->
+</CENTER>
+
+<script language="JavaScript1.1">
+<!--
+
+var whichlink=0
+var whichimage=0
+var blenddelay=(ie)? document.images.slide.filters[0].duration*1000 : 0
+function slideit(){
+if (!document.images) return
+if (ie) document.images.slide.filters[0].apply()
+document.images.slide.src=imageholder[whichimage].src
+if (ie) document.images.slide.filters[0].play()
+whichlink=whichimage
+whichimage=(whichimage<slideimages.length-1)? whichimage+1 : 0
+setTimeout("slideit()",slidespeed+blenddelay)
+}
+slideit()
+
+//-->
+</script>
+
+
+
+<CENTER>
+<!-- <IMG SRC="vs300big.jpg" WIDTH=342 HEIGHT=240 BORDER=0 ALT="VS-300"> -->
+<BR><BR><BR>
+
+<TABLE WIDTH="280">
+<TR>
+<TD>
+
+<FONT SIZE="5" FACE="Arial"><CENTER><B>R/C Sim Sikorsky</B></CENTER></FONT><BR>
+
+<FONT SIZE="3" FACE="Arial"><CENTER><B>Lift Off</B></CENTER></FONT>
+<BR>
+<FONT SIZE="1" FACE="Arial"><CENTER>"The work of the individual still remains the spark which moves mankind ahead."</CENTER></FONT>
+<BR>
+<FONT SIZE="2" FACE="Arial">On 14 September 1939  Igor Ivanovich Sikorsky (1889 - 1972) made his first flight in the VS-300. When he was in France to study aerodynamics, early aviation pioneers told him not to waste his time on the helicopter. Sikorsky returned to Kiev in 1909 with a three-cylinder 25 horsepower Anzani motorcycle engine and built a helicopter with coaxial twin-bladed rotors. The crude testbed had a seat for the "pilot" and wires to change the pitch of the blades. Measurements showed the helicopter could generate some 357 pounds of lift, unfortunately about 100 pounds less than its empty weight. Sikorsky abandoned his first helicopter in October 1909 and returned to Paris to study the near-term promise of the airplane. After the success of his flying boats and amphibians, Igor Sikorsky resumed his experiments with helicopters. In 1931, he patented a design with the now-familiar helicopter layout - a single large main rotor and small anti-torque tail rotor. In 1938, United Aircraft accepted Sikorsky's recommendation to develop such an aircraft. The steel tube, open cockpit VS-300 had a 65 hp Lycoming engine and belt transmission turning a three-bladed main rotor. By the summer of 1940, the experimental <A HREF="sikorsky.avi">helicopter</A> could stay airborne for 15 minutes at a time. The VS-300 would crash several times and undergo major changes during years of test flying, but Igor Sikorsky's determined work in helicopter controls ultimately gave the world a stable, practical, immensely versatile flying machine. In order to familiarize himself with rotary-wing flight, Sikorsky made use of a <A HREF="javascript:void(0)" onClick="window.open('popup.html', 'popupWindow', 'scrollbars=0,resizable=1,width=322,height=274');" onMouseOver="window.status='Simulator'; return true" onMouseOut="window.status=''">simulator</A>.
+<BR><BR><BR>
+
+<BR>
+<H4>Info</H4>
+R/C Sim Sikorsky is a freeware R/C helicopter simulator.
+<BR><BR>
+
+<BR>
+<H4>Screenshots</H4>
+<A HREF="screenshots6/index.html">Screenshots v1.5 (Preview)</A><BR>
+<A HREF="screenshots5/index.html">Screenshots v1.4 (1)</A><BR>
+<A HREF="screenshots3/screenshots.html">Screenshots v1.4 (2)</A><BR>
+<A HREF="screenshots4/index.html">Screenshots v1.4 (3)</A><BR>
+<A HREF="screenshots2/screenshots.html">Screenshots v1.2</A><BR>
+<A HREF="screenshots/screenshots.html">Screenshots v1.0</A><BR>
+<BR>
+
+<BR>
+<H4>Download</H4>
+
+<IMG SRC="new.gif" WIDTH=41 HEIGHT=20 BORDER=0 ALIGN="ABSMIDDLE"> &nbsp;Version 1.4
+<BR><BR>
+
+<!-- 
+<A HREF="http://www.getright.com/"><IMG SRC="good_button.gif" WIDTH=88 HEIGHT=31 BORDER=0></A>
+ -->
+
+<!--
+As a single file:
+<BR><BR>
+-->
+
+<!-- 
+<A HREF="http://home.hccnet.nl/a.p.kraak/rcsim/RCSimSikorsky13b.exe">RCSimSikorsky13b.exe</A> (6353 KB)
+ -->
+ 
+<!--  
+ <A HREF="http://home.zonnet.nl/rgosens2/RCSimSikorsky13b.exe">RCSimSikorsky13b.exe</A> (6353 KB)
+-->
+
+<!-- <A HREF="http://goossens2.fol.nl/RCSimSikorsky132b.exe">RCSimSikorsky132b.exe</A> (7157 KB) -->
+
+<A HREF="http://delavaletta.fol.nl/RCSimSikorsky14b.exe">RCSimSikorsky14b.exe</A>  (7396 KB)
+
+<BR><BR><BR>
+<IMG SRC="img_windowsxp.gif" WIDTH=115 HEIGHT=29 BORDER=0>
+<BR><BR>
+<IMG SRC="new.gif" WIDTH=41 HEIGHT=20 BORDER=0 ALIGN="ABSMIDDLE"> &nbsp;Windows NT/2000/XP Driver
+<BR><BR>
+<IMG SRC="new.gif" WIDTH=41 HEIGHT=20 BORDER=0 ALIGN="ABSMIDDLE"> &nbsp;Dynamics Engine <A HREF="http://ode.org/">(ODE)</A>
+<BR><BR>
+<IMG SRC="new.gif" WIDTH=41 HEIGHT=20 BORDER=0 ALIGN="ABSMIDDLE"> &nbsp;Graphics
+<BR><BR>
+<BR>
+<FONT SIZE="1">
+Note: R/C Sim Sikorsky requires DirectX 7 or higher.
+<FONT SIZE="2">
+<BR><BR>
+
+
+<!-- 
+Mirrors:
+<BR><BR>
+<A HREF="http://www.rcsim.ihearyou.com/RCSimSikorsky115b.exe" onClick="DoLoud()">RCSimSikorsky115b.exe</A>
+<BR>
+<A HREF="http://www.thebluepill.net/rcsim/RCSimSikorsky115b.exe" onClick="DoLoud()">RCSimSikorsky115b.exe</A>
+ -->
+ 
+
+<!-- 
+<A HREF="javascript:void(0)" onClick="window.open('./html/Topic14.html', 'popupWindow', 'scrollbars=1,resizable=1,width=640,height=480');" onMouseOver="window.status='Interface Schematic'; return true" onMouseOut="window.status=''">Interface Schematic</A>
+<BR>
+<A HREF="javascript:void(0)" onClick="window.open('./html/Topic19.html', 'popupWindow', 'scrollbars=1,resizable=1,width=640,height=480');" onMouseOver="window.status='Interface Example (Graupner/JR)'; return true" onMouseOut="window.status=''">Interface Example (Graupner/JR)</A>
+ -->
+
+<BR>
+<H4>Interface</H4>
+<A HREF="interface/schematic.html">Interface Schematic</A><BR>
+<A HREF="interface/example.html">Interface Example (Graupner/JR)</A><BR>
+<A HREF="http://www.heliguy.com/nexus/fmsinterface.html">Interface Example (Futaba)</A><BR>
+<BR>
+
+
+<BR><BR>
+<H4>Links</H4>
+<A HREF="screensaver/screensaver.html">3D Screensaver</A>
+<BR><BR>
+<!--The American Helicopter Society Igor I. Sikorsky Human Powered Helicopter Competition-->
+<A HREF="http://www.vtol.org/awards/hph.html">The AHS Igor I. Sikorsky
+Human-Powered Helicopter Competition</A>
+<BR><BR>
+<A HREF="http://batman.mech.ubc.ca/~hph/">Human Powered Helicopter Project
+University of British Columbia</A>
+<BR>
+
+<BR><BR>
+<H4>Video</H4>
+
+<A HREF="http://www.handymodels.co.uk/downloads/alan_vegasfunflydemo_2004.wmv">3D Demo Flying by Alan Szabo Jr. flying a Thunder Tiger Raptor 90 (.wmv)</A>
+<BR><BR>
+<A HREF="http://www.cheetahrc.com/Adrenalin%20Hover.wmv">Torque Roll by Brian DiCinti flying a YT International Adrenalin (.wmv)</A>
+<BR><BR>
+<A HREF="http://pixelito.reference.be/livingroom.wmv">Living room flight by Alexander Van de Rostyne flying a 6.9 grams (!) Pixelito micro-helicopter (.wmv)</A>
+
+
+
+
+
+
+
+<!-- 
+<BR><BR>
+Or as separate zip files:
+<BR><BR>
+ -->
+
+<!-- 
+<A HREF="disk1.zip">Disk1.zip</A><BR>
+<A HREF="disk2.zip">Disk2.zip</A><BR>
+<A HREF="disk3.zip">Disk3.zip</A><BR>
+<A HREF="disk4.zip">Disk4.zip</A><BR>
+<BR><BR>
+
+Installation instructions: Put all the .zip files in the same directory. Right-click on each .zip file and choose Extract to folder. Then run Setup.exe in the disk1 folder.
+http://home.hccnet.nl/a.p.kraak/
+-->
+
+<BR><BR><BR>
+ 
+<H4>Contact</H4>
+<A HREF="mailto:blacksphere2@zonnet.nl">blacksphere2@zonnet.nl</A> <!--(reply not guaranteed).-->
+
+<BR><BR>
+
+<!--
+Thanks: <A HREF="http://home.hccnet.nl/a.p.kraak/rcsim">BRAOSS</A> and several anonymous benefactors for server space.
+-->
+
+<BR><BR><BR>
+
+
+
+</TD>
+</TR>
+</TABLE>
+
+</CENTER>
+
+<BR><BR><BR><BR>
+
+<!-- Begin Nedstat Basic code -->
+<!-- Title: RC Sim Sikorsky -->
+<!-- URL: http://home.zonnet.nl/blacksphere2/rcsim.html -->
+<script language='JavaScript' src="basic.js">
+</script>
+<script language="JavaScript">
+<!--
+  nedstatbasic("AAwddg30AQOMlpyPfeJpjlWt3dJA", 0);
+// -->
+</script>
+<noscript>
+<a target=_top href="http://v1.nedstatbasic.net/stats?AAwddg30AQOMlpyPfeJpjlWt3dJA"><img
+src="http://m1.nedstatbasic.net/n?id=AAwddg30AQOMlpyPfeJpjlWt3dJA"
+border=0 nosave width=11 height=11></a>
+</noscript>
+<!-- End Nedstat Basic code -->
+
+
+
+
+
+
+
+
+</BODY>
+</HTML>

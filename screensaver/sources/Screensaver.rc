@@ -1,0 +1,321 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include <windows.h>
+#include <scrnsave.h>
+#define IDC_STATIC -1
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ID_APP                  ICON    DISCARDABLE     "resources\\Icon3.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include <windows.h>\r\n"
+    "#include <scrnsave.h>\r\n"
+    "#define IDC_STATIC -1\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_SCRNSAVECONFIGURE DIALOG DISCARDABLE  0, 0, 422, 172
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Black Sphere Corp. 3D Screensaver Configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,353,7,62,14
+    PUSHBUTTON      "Cancel",IDCANCEL,353,26,62,14
+    CONTROL         "Slider3",IDC_SLIDER_SPEED,"msctls_trackbar32",
+                    TBS_NOTICKS | WS_TABSTOP,63,19,96,12
+    CONTROL         "Slider3",IDC_SLIDER_ROTATION,"msctls_trackbar32",
+                    TBS_NOTICKS | WS_TABSTOP,63,50,96,12
+    CONTROL         "Slider3",IDC_SLIDER_SIZE,"msctls_trackbar32",
+                    TBS_NOTICKS | WS_TABSTOP,63,83,96,12
+    CONTROL         "Slider3",IDC_SLIDER_ZOOM,"msctls_trackbar32",
+                    TBS_NOTICKS | WS_TABSTOP,63,115,96,12
+    CONTROL         "Slider3",IDC_SLIDER_RANDOM,"msctls_trackbar32",
+                    TBS_NOTICKS | WS_TABSTOP,63,147,96,12
+    CONTROL         "Mark &1",IDC_CHECK_PP1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,212,20,38,10
+    CONTROL         "Mark &2",IDC_CHECK_PP2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,212,35,38,10
+    CONTROL         "Mark &3",IDC_CHECK_PP3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,212,50,38,10
+    CONTROL         "Mark &4",IDC_CHECK_PP4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,212,65,38,10
+    CONTROL         "Logo &1",IDC_RADIO_LOGO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,274,22,38,10
+    CONTROL         "Logo &2",IDC_RADIO_LOGO2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,274,36,38,10
+    CONTROL         "Logo &3",IDC_RADIO_LOGO3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,274,51,38,10
+    CONTROL         "Logo &4",IDC_RADIO_LOGO4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,274,65,38,10
+    CONTROL         "&Sound",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,212,90,37,10
+    CONTROL         "T&race",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,212,102,35,10
+    CONTROL         "&Logo",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    212,114,32,10
+    CONTROL         "&Timer loop",IDC_TIMERLOOP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,273,101,49,10
+    CONTROL         "&Game loop",IDC_GAMELOOP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,273,113,50,10
+    PUSHBUTTON      "&Default",IDC_BUTTON_DEFAULT,353,55,62,14
+    GROUPBOX        "Speed",IDC_STATIC,31,7,163,30
+    CONTROL         "D",IDC_DEFAULT_MODE,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE | WS_GROUP | WS_TABSTOP,325,7,21,10
+    CONTROL         "6",IDC_640x480_MODE,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE | WS_TABSTOP,325,17,20,10
+    CONTROL         "H",IDC_HARDWARE,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE | WS_GROUP | WS_TABSTOP,325,33,21,10
+    CONTROL         "S",IDC_SOFTWARE,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE | WS_TABSTOP,325,44,21,10
+    ICON            ID_APP,IDC_STATIC,5,10,20,20
+    GROUPBOX        "Frame move",IDC_STATIC,266,91,69,36
+    GROUPBOX        "Show",IDC_STATIC,204,7,54,76
+    GROUPBOX        "Logo",IDC_STATIC,266,7,54,76
+    LTEXT           "Slow",IDC_STATIC,41,20,16,8
+    LTEXT           "Fast",IDC_STATIC,165,20,14,8
+    GROUPBOX        "Rotation",IDC_STATIC,31,39,163,30
+    LTEXT           "CCW",IDC_STATIC,41,52,18,8
+    LTEXT           "CW",IDC_STATIC,165,52,13,8
+    GROUPBOX        "Random",IDC_STATIC,31,135,163,30
+    LTEXT           "Min",IDC_STATIC,41,148,12,8
+    LTEXT           "Max",IDC_STATIC,165,148,14,8
+    GROUPBOX        "Size",IDC_STATIC,31,71,163,30
+    LTEXT           "Small",IDC_STATIC,41,84,18,8
+    LTEXT           "Large",IDC_STATIC,165,84,19,8
+    GROUPBOX        "Zoom",IDC_STATIC,31,103,163,30
+    LTEXT           "In",IDC_STATIC,41,116,8,8
+    LTEXT           "Out",IDC_STATIC,165,116,12,8
+    COMBOBOX        IDC_COMBO_PRESETS,217,144,105,91,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Presets",IDC_STATIC,204,131,131,34
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    DLG_SCRNSAVECONFIGURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 415
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 165
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+DLG_SCRNSAVECONFIGURE DLGINIT
+BEGIN
+    IDC_COMBO_PRESETS, 0x403, 7, 0
+0x4e28, 0x6e6f, 0x2965, "\000" 
+    IDC_COMBO_PRESETS, 0x403, 18, 0
+0x6946, 0x6572, 0x7263, 0x6361, 0x656b, 0x2072, 0x7553, 0x7469, 0x0065, 
+
+    IDC_COMBO_PRESETS, 0x403, 14, 0
+0x6f4c, 0x656e, 0x796c, 0x5020, 0x616c, 0x656e, 0x0074, 
+    IDC_COMBO_PRESETS, 0x403, 13, 0
+0x6146, 0x2072, 0x6e61, 0x2064, 0x7741, 0x7961, "\000" 
+    IDC_COMBO_PRESETS, 0x403, 12, 0
+0x6f50, 0x6e69, 0x6974, 0x6c6c, 0x7369, 0x006d, 
+    IDC_COMBO_PRESETS, 0x403, 21, 0
+0x2031, 0x7369, 0x6120, 0x4c20, 0x6e6f, 0x6c65, 0x2079, 0x754e, 0x626d, 
+0x7265, "\000" 
+    IDC_COMBO_PRESETS, 0x403, 21, 0
+0x2032, 0x7369, 0x6120, 0x4c20, 0x6e6f, 0x6c65, 0x2079, 0x754e, 0x626d, 
+0x7265, "\000" 
+    IDC_COMBO_PRESETS, 0x403, 13, 0
+0x2033, 0x7369, 0x4320, 0x6d6f, 0x6170, 0x796e, "\000" 
+    IDC_COMBO_PRESETS, 0x403, 13, 0
+0x2034, 0x7369, 0x6120, 0x4b20, 0x6172, 0x7475, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DESCRIPTION         "Blacksphere Direct3D Screen Saver"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON2               ICON    DISCARDABLE     "directx.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 276, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO1,28,7,51,59,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "&Show",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    7,29,34,10
+    CONTROL         "&Random",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,41,43,10
+    PUSHBUTTON      "&Apply to All",IDC_BUTTON1,7,110,50,14
+    PUSHBUTTON      "&Default",IDC_BUTTON2,7,133,50,14
+    CONTROL         "&Sound",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,99,118,37,10
+    LTEXT           "File:",IDC_STATIC,106,139,14,8
+    EDITTEXT        IDC_EDIT1,125,134,88,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Browse",IDC_BUTTON3,219,134,50,14
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,142,37,98,12
+    LTEXT           "Speed:",IDC_STATIC,116,7,24,8
+    GROUPBOX        "Spin",IDC_STATIC,123,21,130,83
+    CONTROL         "Slider1",IDC_SLIDER2,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,143,7,98,12
+    CONTROL         "Slider1",IDC_SLIDER3,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,142,57,98,12
+    CONTROL         "Slider1",IDC_SLIDER4,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,142,77,98,12
+    LTEXT           "&X:",IDC_STATIC,131,39,8,8
+    LTEXT           "&Y:",IDC_STATIC,131,57,8,8
+    LTEXT           "&Z:",IDC_STATIC,131,76,8,8
+    CONTROL         "&Lock",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    213,90,32,10
+    LTEXT           "Edit:",IDC_STATIC,7,9,15,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 269
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG1 DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 7, 0
+0x614d, 0x6b72, 0x3120, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x614d, 0x6b72, 0x3220, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x614d, 0x6b72, 0x3320, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x614d, 0x6b72, 0x3420, "\000" 
+    0
+END
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
